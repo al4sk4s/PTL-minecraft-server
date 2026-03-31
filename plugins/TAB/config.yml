@@ -196,15 +196,15 @@ conditions:
     false: "~%essentials_nickname%"
 
 placeholder-refresh-intervals:
-  default-refresh-interval: 500
-  "%server_uptime%": 1000
-  "%server_tps_1_colored%": 1000
+  default-refresh-interval: 1000
+  "%server_uptime%": 5000
+  "%server_tps_1_colored%": 5000
   "%server_unique_joins%": 5000
   "%player_health%": 200
-  "%player_ping%": 1000
-  "%vault_prefix%": 1000
-  "%rel_factionsuuid_relation_color%": 1000
-  "%memory-used%": 1000
+  "%player_ping%": 5000
+  "%vault_prefix%": 5000
+  "%rel_factionsuuid_relation_color%": 5000
+  "%memory-used%": 5000
 
 # assigning groups by permission nodes instead of taking them from permission plugin
 assign-groups-by-permissions: false

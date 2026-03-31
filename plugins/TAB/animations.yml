@@ -1,5 +1,5 @@
 PTLTitle:
-  change-interval: 100
+  change-interval: 500
   texts:
     - "&#A1AEFF&lP&#9DAAFF&ll&#9AA6FF&la&#96A3FF&ly &#8F9CFF&lT&#8C98FF&lh&#8895FF&le &#818EFF&lG&#7E8AFF&la&#7B86FF&lm&#7783FF&le &#707CFF&l1&#6D78FF&l.&#6975FF&l0"
     - "&#9DAAFF&lP&#A1AEFF&ll&#9DAAFF&la&#9AA6FF&ly &#939FFF&lT&#8F9CFF&lh&#8C98FF&le &#8591FF&lG&#818EFF&la&#7E8AFF&lm&#7B86FF&le &#747FFF&l1&#707CFF&l.&#6D78FF&l0"
@@ -43,7 +43,7 @@ PTLTitle:
     - "&#9DAAFF&lP&#9AA6FF&ll&#96A3FF&la&#939FFF&ly &#8C98FF&lT&#8895FF&lh&#8591FF&le &#7E8AFF&lG&#7B86FF&la&#7783FF&lm&#747FFF&le &#6D78FF&l1&#6975FF&l.&#6671FF&l0"
 
 ServerName:
-  change-interval: 300
+  change-interval: 600
   texts:
     - "&c&lServerName"
     - "&c&n&lServerName"
@@ -52,7 +52,7 @@ ServerName:
     - "&e&lServerName"
     - "&e&n&lServerName"
 web:
-  change-interval: 200
+  change-interval: 500
   texts:
     - "&#A1AEFF3&#9DAAFFa&#9AA6FFr&#96A3FFt&#939FFFh&#8F9CFF4&#8C98FFc&#8895FFk&#8591FF.&#818EFFl&#7E8AFFo&#7B86FFl"
     - "&#9DAAFF3&#A1AEFFa&#9DAAFFr&#9AA6FFt&#96A3FFh&#939FFF4&#8F9CFFc&#8C98FFk&#8895FF.&#8591FFl&#818EFFo&#7E8AFFl"
@@ -103,7 +103,7 @@ vote:
     - "&5vote.domain.com"
     - "&5&nvote.domain.com"
 Welcome:
-  change-interval: 300
+  change-interval: 600
   texts:
     - "&x&A&1&A&E&F&F&l&o&l"
     - "&x&A&1&A&E&F&F&l&o&l&k."
