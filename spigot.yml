@@ -20,7 +20,7 @@ messages:
 advancements:
   disable-saving: false
   disabled:
-    - minecraft:story/disabled
+  - minecraft:story/disabled
 settings:
   bungeecord: false
   save-user-cache-on-stop-only: false
@@ -172,11 +172,11 @@ commands:
   tab-complete: 0
   send-namespaced: true
   spam-exclusions:
-    - /skill
+  - /skill
   silent-commandblock-console: false
   replace-commands:
-    - setblock
-    - summon
-    - testforblock
-    - tellraw
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
   enable-spam-exclusions: false

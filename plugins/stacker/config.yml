@@ -1,0 +1,33 @@
+# -------------------------------------------------------------------------------- #
+#                           Stacker Plugin Configuration                           #
+# -------------------------------------------------------------------------------- #
+
+# --- COLOR CODE REFERENCE ---
+# &0: Black        &1: Dark Blue     &2: Dark Green   &3: Dark Aqua
+# &4: Dark Red     &5: Dark Purple   &6: Gold         &7: Gray
+# &8: Dark Gray    &9: Blue          &a: Green        &b: Aqua
+# &c: Red          &d: Light Purple  &e: Yellow       &f: White
+# &l: Bold         &m: Strikethrough &n: Underline    &o: Italic &r: Reset
+
+# ITEM STACKING SETTINGS
+item-merging:
+  merge-distance: 1.0
+  excluded-materials:
+    - POTION
+    - ELYTRA
+    - SHULKER_BOX
+
+# MOB STACKING SETTINGS
+mob-stacking:
+  max-stack-size: 0
+  stacking-radius: 0
+  disabled-mobs:
+    - VILLAGER
+    - IRON_GOLEM
+    - SNOWMAN
+
+# MESSAGE SETTINGS
+# %count% = amount, %name% = mob/item name
+messages:
+  mob-tag: "&e➤ &cx%count% &f%name%"
+  item-tag: "&6➤ &bx%count% &f%name%"

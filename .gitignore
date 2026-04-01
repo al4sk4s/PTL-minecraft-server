@@ -19,3 +19,7 @@ start.sh
 usercache.json
 version_history.json
 whitelist.json
+
+/plugins/SetHome
+/plugins/ChunkLoader
+/plugins/SimpleLogin
