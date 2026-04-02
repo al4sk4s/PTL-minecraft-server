@@ -17,7 +17,7 @@ wandGiven:
   set Position 2.
 wandPos1: <green>Position 1 set to chunk <gold><x>, <z></gold> in <gold><world></gold>.
 wandPos2: <green>Position 2 set to chunk <gold><x>, <z></gold> in <gold><world></gold>.
-actionbarWilderness: #<gradient:#5ee7df:#b490ca>🌲 Wilderness 🌲</gradient>
+actionbarWilderness:
 actionbarOwnedByYou: <gradient:#a8ff78:#78ffd6>🏠 Your Claim 🏠</gradient>
 actionbarOwnedByOther: <gradient:#ff416c:#ff4b2b>🔒 <owner>'s Claim 🔒</gradient>
 actionbarTrusted: <gradient:#f6d365:#fda085>🤝 <owner>'s Claim 🤝</gradient> <gray>(Trusted)</gray>
