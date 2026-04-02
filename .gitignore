@@ -24,3 +24,5 @@ whitelist.json
 /plugins/ChunkLoader
 /plugins/SimpleLogin
 /plugins/LandClaimPlugin/PlayerData
+/plugins/DiscordSRV/discord-console-logs
+/plugins/DiscordSRV/config.yml
