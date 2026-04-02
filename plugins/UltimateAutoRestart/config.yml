@@ -32,44 +32,44 @@ settings:
   # Note: Available command types for restartCommands -> normal, time, proxy, proxydelay
   # Note: Available days for day-specific commands -> [MONDAY], [TUESDAY], [WEDNESDAY], [THURSDAY], [FRIDAY], [SATURDAY], [SUNDAY] **READ** The day tag must come after the command type (except normal)
   restartCommands:
-    - save-all
-    - restart
+  - save-all
+  - restart
   restarts:
-    - Monday;00;00
-    - Monday;12;00
-    - Tuesday;00;00
-    - Tuesday;12;00
-    - Wednesday;00;00
-    - Wednesday;12;00
-    - Thursday;00;00
-    - Thursday;12;00
-    - Friday;00;00
-    - Friday;12;00
-    - Saturday;00;00
-    - Saturday;12;00
-    - Sunday;00;00
-    - Sunday;12;00
+  - Monday;00;00
+  - Monday;12;00
+  - Tuesday;00;00
+  - Tuesday;12;00
+  - Wednesday;00;00
+  - Wednesday;12;00
+  - Thursday;00;00
+  - Thursday;12;00
+  - Friday;00;00
+  - Friday;12;00
+  - Saturday;00;00
+  - Saturday;12;00
+  - Sunday;00;00
+  - Sunday;12;00
   messageAtIntervals:
-    - "1800"
-    - "600"
-    - "60"
-    - "30"
-    - "10"
-    - "5"
-    - "3"
-    - "2"
-    - "1"
+  - '1800'
+  - '600'
+  - '60'
+  - '30'
+  - '10'
+  - '5'
+  - '3'
+  - '2'
+  - '1'
   soundAtIntervals:
-    - "1800"
-    - "600"
-    - "60"
-    - "30"
-    - "10"
-    - "5"
-    - "3"
-    - "2"
-    - "1"
-  unscheduledIntervalValue: "&f&lN/A"
+  - '1800'
+  - '600'
+  - '60'
+  - '30'
+  - '10'
+  - '5'
+  - '3'
+  - '2'
+  - '1'
+  unscheduledIntervalValue: '&f&lN/A'
 
 ##################################
 #                                #
@@ -83,30 +83,30 @@ delayRestart:
   checkSecondsBeforeRestart: 30
   minimumPlayers: 1
   delayBySeconds: 600
-
+   
 ##################################
 #                                #
 #    VALUE DISPLAY SETTINGS      #
 #                                #
-##################################
+##################################    
 
-# Note: Configure how the interval shows up!
+# Note: Configure how the interval shows up!   
 format:
-  seconds: "s"
-  second: "s"
-  minutes: "m "
-  minute: "m "
-  hours: "h "
-  hour: "h "
-  days: "D "
-  day: "D "
-  splitter: "and "
+  seconds: s
+  second: s
+  minutes: 'm '
+  minute: 'm '
+  hours: 'h '
+  hour: 'h '
+  days: 'D '
+  day: 'D '
+  splitter: 'and '
 
 ##################################
 #                                #
 #    UPDATE NOTIFIER SETTINGS    #
 #                                #
-##################################
+################################## 
 
 updates:
   notifications: false
