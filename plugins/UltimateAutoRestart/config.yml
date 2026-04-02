@@ -92,8 +92,8 @@ delayRestart:
 
 # Note: Configure how the interval shows up!
 format:
-  seconds: s
-  second: s
+  seconds: "s"
+  second: "s"
   minutes: "m "
   minute: "m "
   hours: "h "
