@@ -26,3 +26,4 @@ whitelist.json
 /plugins/LandClaimPlugin/PlayerData
 /plugins/DiscordSRV/discord-console-logs
 /plugins/DiscordSRV/config.yml
+/plugins/LuckPerms/
