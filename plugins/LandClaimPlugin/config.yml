@@ -74,6 +74,6 @@ redis:
   channel: landclaim:sync
 worldguardGap: 0
 minClaimGap: 0
-actionbarUpdateInterval: 20
+actionbarUpdateInterval: 40
 # Default maximum warps per player (bypass with landclaim.warps.limit.X)
 maxWarps: 50
