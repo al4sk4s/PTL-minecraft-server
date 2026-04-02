@@ -1,6 +1,6 @@
 # LandClaimPlugin - Main Configuration
 # Messages Prefix (MiniMessage format)
-prefix: '<dark_gray>[<gold>LandClaim<dark_gray>]</gold> '
+prefix: "<dark_gray>[<gold>LandClaim<dark_gray>]</gold> "
 # The item used as the Claim Wand (Material name)
 claimWandItem: GOLDEN_SHOVEL
 # The default language file to load from the locales folder (e.g., en-US, es-ES)
@@ -9,11 +9,11 @@ requireConnectedClaims: false
 allowDiagonalConnections: true
 # Blocked worlds for claiming
 blockWorld:
-- world_nether
-- world_the_end
+  - world_nether
+  - world_the_end
 blockCmd:
-- setwarp
-- warp
+  - setwarp
+  - warp
 cooldownUnstuck: 30
 # Map Integration
 dynmap:
@@ -42,7 +42,7 @@ pl3xmap:
   borderOpacity: 0.8
 autoClaimDefault: false
 autoUnclaimDefault: false
-chunkClaimLimit: 5
+chunkClaimLimit: 50
 # Database Settings (Supported: MYSQL, SQLITE)
 database:
   # Database type: SQLITE or MYSQL
@@ -54,9 +54,9 @@ database:
   # Database name
   databaseName: landclaim
   # MySQL/MariaDB username (leave empty for SQLite)
-  username: ''
+  username: ""
   # MySQL/MariaDB password (leave empty for SQLite)
-  password: ''
+  password: ""
   # Table prefix for all plugin tables
   tablePrefix: lc_
   # Maximum number of database connections in the pool
@@ -70,10 +70,10 @@ redis:
   enabled: false
   host: localhost
   port: 6379
-  password: ''
+  password: ""
   channel: landclaim:sync
 worldguardGap: 0
 minClaimGap: 0
 actionbarUpdateInterval: 20
 # Default maximum warps per player (bypass with landclaim.warps.limit.X)
-maxWarps: 3
+maxWarps: 50

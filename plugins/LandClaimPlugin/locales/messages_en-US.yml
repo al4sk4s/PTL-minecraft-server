@@ -8,19 +8,21 @@ playerNotFound: <red>Player not found.
 invalidCommand: <red>Invalid command usage.
 reloaded: <green>Configuration and messages reloaded successfully!
 inCombat: <red>You cannot execute LandClaim commands while in combat!</red>
-claimInfoOwner: '<gray>Claim Owner: <gold><owner>'
+claimInfoOwner: "<gray>Claim Owner: <gold><owner>"
 claimInfoManage: |2-
 
   <gray>[<green><click:run_command:'/claim member'><hover:show_text:'Click to manage claim members'>Manage Members</hover></click></green>] [<gold><click:run_command:'/claim'><hover:show_text:'Click to manage claim setings'>Manage Claim</hover></click></gold>]</gray>
-wandGiven: <green>Claim Wand received! Left-click to set Position 1, Right-click to
+wandGiven:
+  <green>Claim Wand received! Left-click to set Position 1, Right-click to
   set Position 2.
 wandPos1: <green>Position 1 set to chunk <gold><x>, <z></gold> in <gold><world></gold>.
 wandPos2: <green>Position 2 set to chunk <gold><x>, <z></gold> in <gold><world></gold>.
-actionbarWilderness: <gradient:#5ee7df:#b490ca>🌲 Wilderness 🌲</gradient>
+actionbarWilderness: #<gradient:#5ee7df:#b490ca>🌲 Wilderness 🌲</gradient>
 actionbarOwnedByYou: <gradient:#a8ff78:#78ffd6>🏠 Your Claim 🏠</gradient>
 actionbarOwnedByOther: <gradient:#ff416c:#ff4b2b>🔒 <owner>'s Claim 🔒</gradient>
 actionbarTrusted: <gradient:#f6d365:#fda085>🤝 <owner>'s Claim 🤝</gradient> <gray>(Trusted)</gray>
-actionbarAdmin: <gradient:#ff416c:#ff4b2b>🛡️ <owner>'s Claim 🛡️</gradient> <gray>(Admin
+actionbarAdmin:
+  <gradient:#ff416c:#ff4b2b>🛡️ <owner>'s Claim 🛡️</gradient> <gray>(Admin
   Override)</gray>
 # Variables: <player>, <count>, <limit>, <seconds>, <world>, <x>, <z>
 warpSet: <green>Warp <gold><name></gold> has been set!
@@ -43,17 +45,18 @@ alreadyClaimed: <red>This chunk is already claimed by <owner>.
 nameAlreadyInUse: <red>That claim name is already taken. Please choose another one.
 claimLimitReached: <red>You have reached your claim limit of <limit>.
 notConnected: <red>Your claims must be connected.
-tooCloseToWorldguard: '<red>You are too close to a WorldGuard region. Minimum gap:
-  <gap>'
-tooCloseToOtherClaim: '<red>You are too close to another player''s claim. Minimum
-  gap: <gap>'
+tooCloseToWorldguard:
+  "<red>You are too close to a WorldGuard region. Minimum gap:
+  <gap>"
+tooCloseToOtherClaim: "<red>You are too close to another player's claim. Minimum
+  gap: <gap>"
 commandBlocked: <red>This command is blocked in claims.
 roleRemoved: <green>Role assigned to player successfully removed.
 roleAssigned: <green>Role successfully assigned.
-claimListTotal: '<green>Total claims: <gold><count>'
-claimListWorld: '<green><world> Claims:'
+claimListTotal: "<green>Total claims: <gold><count>"
+claimListWorld: "<green><world> Claims:"
 claimListEntry: <gray>- <gold><x>, <z>
-claimInfoTrusted: '<green>Trusted: <gold><players>'
+claimInfoTrusted: "<green>Trusted: <gold><players>"
 chunksClaimedSuccess: <green>Successfully claimed <count> chunks!
 claimFailed: <red>Failed to claim chunks. Limit reached or already claimed.
 selectionRequired: <red>You must make a selection first using the Claim Wand.
@@ -71,7 +74,8 @@ memberInviteReceived: |-
   <green>You have been invited to <gold><owner></gold>'s claim!
   <gray>[<green><click:run_command:'/claim accept'><hover:show_text:'Click to accept the invite!'>Accept</hover></click></green>] [<red><click:run_command:'/claim deny'><hover:show_text:'Click to deny the invite'>Deny</hover></click></red>]</gray>
 memberKicked: <red>You have kicked <gold><player></gold> from the claim.
-inviteAcceptedOwner: <green><gold><player></gold> has accepted your invite and joined
+inviteAcceptedOwner:
+  <green><gold><player></gold> has accepted your invite and joined
   the claim!
 inviteAcceptedTarget: <green>You joined <gold><owner></gold>'s claim!
 inviteDeniedTarget: <red>You denied the invite to <gold><owner></gold>'s claim.
@@ -86,7 +90,7 @@ allyInviteReceived: |-
   <green>Your claim has received an ally invite from <gold><name></gold>!
   <gray>[<green><click:run_command:'/claim ally accept <name>'><hover:show_text:'Accept'>Accept</hover></click></green>] [<red><click:run_command:'/claim ally deny <name>'><hover:show_text:'Deny'>Deny</hover></click></red>]</gray>
 noAllyInviteFrom: <red>No pending ally invite from claim <gold><name></gold>.
-specifyAllyName: '<red>Please specify the claim name: /claim ally accept <name>'
+specifyAllyName: "<red>Please specify the claim name: /claim ally accept <name>"
 allyAccepted: <green>You are now allied with <gold><name></gold>!
 allyAcceptedTarget: <green><gold><name></gold> accepted your ally invite!
 allyDenied: <red>Ally invite from <gold><name></gold> was denied.
@@ -96,10 +100,11 @@ trustAdded: <green>Added trust to <player>
 trustRemoved: <red>Removed trust from <player>
 claimVisibilityToggled: <green>Claim visibility toggled.
 adminBypassedUnclaim: <green>Bypassed ownership and unclaimed chunk.
-adminClaimInfoOwnedBy: '<red>[ADMIN] <green>Claim owned by: <gold><owner> <gray>(<uuid>)'
-adminClaimInfoId: '<green>Claim ID: <gray><id>'
+adminClaimInfoOwnedBy: "<red>[ADMIN] <green>Claim owned by: <gold><owner> <gray>(<uuid>)"
+adminClaimInfoId: "<green>Claim ID: <gray><id>"
 noProfile: <red>You don't have a claim profile yet. Claim some land first!
-cannotClaimAsMember: <red>You cannot claim land while you are a member of another
+cannotClaimAsMember:
+  <red>You cannot claim land while you are a member of another
   claim.
 profileCreated: <green>Your claim profile has been created!
 alreadyHasProfile: <red>You already have a claim profile.
@@ -117,21 +122,21 @@ inviteAccepted: <green>You have accepted the invite!
 inviteDenied: <red>You have denied the invite.
 inviteWasDenied: <red>Your invite was denied.
 memberJoined: <green><player> has joined your claim!
-memberListHeader: '<gold>Members:'
+memberListHeader: "<gold>Members:"
 memberListEntry: <gray>- <gold><player> <gray>(<role>)
 memberListEmpty: <gray>No members.
-trustListHeader: '<gold>Trusted Players:'
+trustListHeader: "<gold>Trusted Players:"
 trustListEntry: <gray>- <gold><player>
 trustListEmpty: <gray>No trusted players.
 claimRenamed: <green>Claim renamed to <gold><name></gold>.
 claimNameInvalid: <red>Invalid name. Use 3-32 characters (letters, numbers, spaces).
-renamePrompt: '<yellow>Type the new claim name in chat (or ''cancel'' to abort):'
+renamePrompt: "<yellow>Type the new claim name in chat (or 'cancel' to abort):"
 renameCancelled: <gray>Rename cancelled.
 claimColorChanged: <green>Claim color changed!
-claimColorInvalid: '<red>Invalid hex color. Use format: #RRGGBB'
-colorHexPrompt: '<yellow>Type a hex color code in chat (e.g. #FF5500, or ''cancel''):'
+claimColorInvalid: "<red>Invalid hex color. Use format: #RRGGBB"
+colorHexPrompt: "<yellow>Type a hex color code in chat (e.g. #FF5500, or 'cancel'):"
 visibilityModeChanged: <green>Visualization mode set to <gold><mode></gold>.
-titleEnterPrompt: '<yellow>Type the new entry title in chat (or ''cancel'' to abort):'
-titleLeavePrompt: '<yellow>Type the new leave title in chat (or ''cancel'' to abort):'
+titleEnterPrompt: "<yellow>Type the new entry title in chat (or 'cancel' to abort):"
+titleLeavePrompt: "<yellow>Type the new leave title in chat (or 'cancel' to abort):"
 titleUpdated: <green>Claim title successfully updated!
 titleCancelled: <gray>Title update cancelled.
