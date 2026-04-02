@@ -1,0 +1,54 @@
+# MainMenu GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: 'Claim: {claim_name}'
+# Filler 1
+filler1:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Filler 2
+filler2:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Claim Map Button
+claimMap:
+  material: MAP
+  name: Claim Map
+  lore: []
+# Claim Warps Button
+warps:
+  material: RED_BED
+  name: Warps
+  lore: []
+# Allies Button
+allies:
+  material: ENDER_CHEST
+  name: Allies
+  lore: []
+# Claim Settings Button
+settings:
+  material: EMERALD
+  name: Settings
+  lore: []
+# Trusted Members Management Button
+trusted:
+  material: COPPER_CHESTPLATE
+  name: Trusted Members Management
+  lore: []
+# Members Management Button
+members:
+  material: PLAYER_HEAD
+  name: Members Management
+  lore: []
+# Visitor Settings Button
+visitors:
+  material: SKULL_BANNER_PATTERN
+  name: Visitor Settings
+  lore: []
+# Close Menu Button
+close:
+  material: STRUCTURE_VOID
+  name: close
+  lore: []

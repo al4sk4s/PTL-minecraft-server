@@ -1,0 +1,43 @@
+# TrustManagement GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Trust Management
+# Decorative border
+frame:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Empty state indicator
+emptyIndicator:
+  material: RED_STAINED_GLASS_PANE
+  name: <red>No Trusted Players Yet
+  lore: []
+# Navigation bar background
+bottomFill:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Add Player Button
+addPlayer:
+  material: PLAYER_HEAD
+  name: <yellow>Add Player
+  lore:
+  - <gray>Click to add a trusted player
+# Return to previous menu
+back:
+  material: SPECTRAL_ARROW
+  name: <yellow>Back
+  lore:
+  - <gray>Return to Main Menu
+# Previous Page Button
+previousPage:
+  material: LIGHT_BLUE_CANDLE
+  name: <aqua>Previous Page
+  lore:
+  - <gray>Go to the previous page
+# Next Page Button
+nextPage:
+  material: LIME_CANDLE
+  name: <green>Next Page
+  lore:
+  - <gray>Go to the next page

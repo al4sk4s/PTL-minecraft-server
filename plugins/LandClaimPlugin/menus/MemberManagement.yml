@@ -1,0 +1,37 @@
+# MemberManagement GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Members Management
+# Decorative border
+frame:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Empty state indicator
+emptyIndicator:
+  material: RED_STAINED_GLASS_PANE
+  name: <red>No Members Yet
+  lore: []
+# Navigation bar background
+bottomFill:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Return to previous menu
+back:
+  material: SPECTRAL_ARROW
+  name: <yellow>Back
+  lore:
+  - <gray>Return to Main Menu
+# Previous Page Button
+previousPage:
+  material: CYAN_CANDLE
+  name: <aqua>Previous Page
+  lore:
+  - <gray>Go to the previous page
+# Next Page Button
+nextPage:
+  material: LIME_CANDLE
+  name: <green>Next Page
+  lore:
+  - <gray>Go to the next page

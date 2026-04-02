@@ -1,0 +1,48 @@
+# RoleSetup GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Role Setup
+# Visual spacing frame
+frame:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Navigation background
+navFill:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Set Name Button
+setName:
+  material: BIRCH_SIGN
+  name: <yellow><bold>Set a Name
+  lore:
+  - <gray>Click to enter a name for the role.
+# Permissions Button
+permissions:
+  material: BELL
+  name: <gold><bold>Permissions
+  lore:
+  - <gray>Manage what this role can do.
+  - <gray>(Opens RoleEditGUI)
+# Set Priority Button
+setPriority:
+  material: TOTEM_OF_UNDYING
+  name: <light_purple><bold>Set Priority
+  lore:
+  - <gray>Adjust role hierarchy.
+  - ''
+  - <gray>Higher priority overrides lower ones.
+# Cancel and Return
+back:
+  material: SPECTRAL_ARROW
+  name: <red>Back/Cancel
+  lore:
+  - <gray>Discard unsaved changes
+  - <gray>and return to Role Management.
+# Save and Exit
+saveExit:
+  material: WRITABLE_BOOK
+  name: <green><bold>Save and Exit
+  lore:
+  - <gray>Create the role and return.

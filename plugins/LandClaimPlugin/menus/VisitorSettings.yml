@@ -1,0 +1,193 @@
+# VisitorSettings GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Visitor Settings
+# Decorative border
+frame:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Navigation bar background
+bottomFill:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Text appended to lore when a flag is allowed
+enabledStatus: <green>▶ Allowed
+# Text appended to lore when a flag is restricted
+disabledStatus: <red>▶ Restricted
+# All configurable visitor flags and their display icons
+flags:
+  BLOCK_IGNITE:
+    material: FLINT_AND_STEEL
+    name: <yellow>Block Ignite
+    lore:
+    - <gray>Allow visitors to ignite blocks.
+  USE_BELLS:
+    material: BELL
+    name: <yellow>Use Bells
+    lore:
+    - <gray>Allow visitors to ring bells.
+  USE_BEDS:
+    material: RED_BED
+    name: <yellow>Use Beds
+    lore:
+    - <gray>Allow visitors to sleep in beds.
+  DAMAGE_MONSTERS:
+    material: ZOMBIE_HEAD
+    name: <yellow>Damage Monsters
+    lore:
+    - <gray>Allow visitors to hurt monsters.
+  BREED_ANIMALS:
+    material: WHEAT
+    name: <yellow>Breed Animals
+    lore:
+    - <gray>Allow visitors to breed animals.
+  USE_TRAPDOORS:
+    material: OAK_TRAPDOOR
+    name: <yellow>Use Trapdoors
+    lore:
+    - <gray>Allow visitors to open trapdoors.
+  LEASH_ENTITIES:
+    material: LEAD
+    name: <yellow>Leash Entities
+    lore:
+    - <gray>Allow visitors to use leads.
+  FEED_ANIMALS:
+    material: GOLDEN_CARROT
+    name: <yellow>Feed Animals
+    lore:
+    - <gray>Allow visitors to feed animals.
+  USE_REDSTONE:
+    material: LEVER
+    name: <yellow>Use Redstone
+    lore:
+    - <gray>Allow visitors to use levers, buttons, etc.
+  SHEAR_ENTITIES:
+    material: SHEARS
+    name: <yellow>Shear Entities
+    lore:
+    - <gray>Allow visitors to shear sheep, etc.
+  BLOCK_BREAK:
+    material: IRON_PICKAXE
+    name: <yellow>Block Break
+    lore:
+    - <gray>Allow visitors to break blocks.
+  USE_ENDER_PEARLS:
+    material: ENDER_PEARL
+    name: <yellow>Use Ender Pearls
+    lore:
+    - <gray>Allow visitors to throw ender pearls.
+  BLOCK_PLACE:
+    material: BRICK
+    name: <yellow>Block Place
+    lore:
+    - <gray>Allow visitors to place blocks.
+  PICKUP_ITEMS:
+    material: HOPPER
+    name: <yellow>Pickup Items
+    lore:
+    - <gray>Allow visitors to pick up dropped items.
+  USE_FERTILIZER:
+    material: BONE_MEAL
+    name: <yellow>Use Fertilizer
+    lore:
+    - <gray>Allow visitors to use bone meal.
+  USE_LECTERNS:
+    material: LECTERN
+    name: <yellow>Use Lecterns
+    lore:
+    - <gray>Allow visitors to read lecterns.
+  USE_WORKSTATIONS:
+    material: CRAFTING_TABLE
+    name: <yellow>Use Workstations
+    lore:
+    - <gray>Allow visitors to use crafting tables, furnaces, etc.
+  MODIFY_ARMOR_STANDS:
+    material: ARMOR_STAND
+    name: <yellow>Modify Armor Stands
+    lore:
+    - <gray>Allow visitors to interact with armor stands.
+  TRADE_VILLAGERS:
+    material: EMERALD
+    name: <yellow>Trade with Villagers
+    lore:
+    - <gray>Allow visitors to trade.
+  USE_DOORS:
+    material: OAK_DOOR
+    name: <yellow>Use Doors
+    lore:
+    - <gray>Allow visitors to open doors.
+  USE_FENCE_GATES:
+    material: OAK_FENCE_GATE
+    name: <yellow>Use Fence Gates
+    lore:
+    - <gray>Allow visitors to open fence gates.
+  MODIFY_ITEM_FRAMES:
+    material: ITEM_FRAME
+    name: <yellow>Modify Item Frames
+    lore:
+    - <gray>Allow visitors to interact with item frames.
+  MODIFY_SIGNS:
+    material: OAK_SIGN
+    name: <yellow>Modify Signs
+    lore:
+    - <gray>Allow visitors to edit signs.
+  USE_BUCKETS:
+    material: WATER_BUCKET
+    name: <yellow>Use Buckets
+    lore:
+    - <gray>Allow visitors to use buckets.
+  USE_CHORUS_FRUIT:
+    material: CHORUS_FRUIT
+    name: <yellow>Use Chorus Fruit
+    lore:
+    - <gray>Allow visitors to eat chorus fruit.
+  DESTROY_VEHICLES:
+    material: TNT
+    name: <yellow>Destroy Vehicles
+    lore:
+    - <gray>Allow visitors to break vehicles.
+  USE_CONTAINERS:
+    material: CHEST
+    name: <yellow>Use Containers
+    lore:
+    - <gray>Allow visitors to open chests, barrels, etc.
+  DROP_ITEMS:
+    material: DROPPER
+    name: <yellow>Drop Items
+    lore:
+    - <gray>Allow visitors to drop items.
+  PLACE_VEHICLES:
+    material: OAK_BOAT
+    name: <yellow>Place Vehicles
+    lore:
+    - <gray>Allow visitors to place vehicles.
+  DAMAGE_ANIMALS:
+    material: PORKCHOP
+    name: <yellow>Damage Animals
+    lore:
+    - <gray>Allow visitors to hurt animals.
+  RIDE_VEHICLES:
+    material: MINECART
+    name: <yellow>Ride Vehicles
+    lore:
+    - <gray>Allow visitors to ride minecarts and boats.
+# Return to previous menu
+back:
+  material: SPECTRAL_ARROW
+  name: <yellow>Back
+  lore:
+  - <gray>Return to Main Menu
+# Previous Page Button
+previousPage:
+  material: LIGHT_BLUE_CANDLE
+  name: <aqua>Previous Page
+  lore:
+  - <gray>Go to the previous page.
+# Next Page Button
+nextPage:
+  material: LIME_CANDLE
+  name: <green>Next Page
+  lore:
+  - <gray>Go to the next page.

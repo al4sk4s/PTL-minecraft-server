@@ -1,0 +1,39 @@
+# WarpControlPanel GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Warp Control Panel
+# Locked UI background
+frame:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Visual separation
+spacer:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Change Location Button
+changeLocation:
+  material: LIME_BED
+  name: <green>Change Location
+  lore:
+  - <gray>Update the Location with
+  - <gray>your current location
+# Change Icon Button
+changeIcon:
+  material: ITEM_FRAME
+  name: <yellow>Change Icon
+  lore:
+  - <gray>Select a new icon for the warp
+# Delete Warp Button
+deleteWarp:
+  material: BARRIER
+  name: <red><bold>Delete Warp
+  lore:
+  - <gray>Permanently delete this warp.
+# Return to previous menu
+back:
+  material: SPECTRAL_ARROW
+  name: <yellow>Back
+  lore:
+  - <gray>Return to Warp Management

@@ -1,0 +1,38 @@
+# AllyManagement GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Ally Management
+# Locked display border
+frame:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# No allies indicator
+emptyIndicator:
+  material: RED_STAINED_GLASS_PANE
+  name: <red><bold>No Allies Yet
+  lore:
+  - <gray>You do not have any allied claims.
+# Navigation pane background filler
+navFill:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Previous Page Button
+previousPage:
+  material: CYAN_CANDLE
+  name: <aqua>Previous Page
+  lore:
+  - <gray>Go to the previous page.
+# Next Page Button
+nextPage:
+  material: LIME_CANDLE
+  name: <green>Next Page
+  lore:
+  - <gray>Go to the next page.
+# Return to previous menu
+back:
+  material: SPECTRAL_ARROW
+  name: <yellow>Back
+  lore:
+  - <gray>Return to Main Menu

@@ -1,0 +1,79 @@
+# LandClaimPlugin - Main Configuration
+# Messages Prefix (MiniMessage format)
+prefix: '<dark_gray>[<gold>LandClaim<dark_gray>]</gold> '
+# The item used as the Claim Wand (Material name)
+claimWandItem: GOLDEN_SHOVEL
+# The default language file to load from the locales folder (e.g., en-US, es-ES)
+language: en-US
+requireConnectedClaims: false
+allowDiagonalConnections: true
+# Blocked worlds for claiming
+blockWorld:
+- world_nether
+- world_the_end
+blockCmd:
+- setwarp
+- warp
+cooldownUnstuck: 30
+# Map Integration
+dynmap:
+  enabled: true
+  fillColor: 3366FF
+  fillOpacity: 0.3
+  borderColor: 3366FF
+  borderOpacity: 0.8
+bluemap:
+  enabled: true
+  fillColor: 3366FF
+  fillOpacity: 0.3
+  borderColor: 3366FF
+  borderOpacity: 0.8
+squaremap:
+  enabled: true
+  fillColor: 3366FF
+  fillOpacity: 0.3
+  borderColor: 3366FF
+  borderOpacity: 0.8
+pl3xmap:
+  enabled: true
+  fillColor: 3366FF
+  fillOpacity: 0.3
+  borderColor: 3366FF
+  borderOpacity: 0.8
+autoClaimDefault: false
+autoUnclaimDefault: false
+chunkClaimLimit: 5
+# Database Settings (Supported: MYSQL, SQLITE)
+database:
+  # Database type: SQLITE or MYSQL
+  type: SQLITE
+  # MySQL/MariaDB host (ignored for SQLite)
+  host: localhost
+  # MySQL/MariaDB port (ignored for SQLite)
+  port: 3306
+  # Database name
+  databaseName: landclaim
+  # MySQL/MariaDB username (leave empty for SQLite)
+  username: ''
+  # MySQL/MariaDB password (leave empty for SQLite)
+  password: ''
+  # Table prefix for all plugin tables
+  tablePrefix: lc_
+  # Maximum number of database connections in the pool
+  maximumPoolSize: 10
+  # Minimum number of idle connections in the pool
+  minimumIdle: 2
+  # Connection timeout in milliseconds
+  connectionTimeout: 30000
+# Redis Cross-Server Sync Settings
+redis:
+  enabled: false
+  host: localhost
+  port: 6379
+  password: ''
+  channel: landclaim:sync
+worldguardGap: 0
+minClaimGap: 0
+actionbarUpdateInterval: 20
+# Default maximum warps per player (bypass with landclaim.warps.limit.X)
+maxWarps: 3

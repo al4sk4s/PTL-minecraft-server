@@ -1,0 +1,84 @@
+# AllyPremissions GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Ally Premissions
+# UI border framing
+frame:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Navigation background
+navFill:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Information Button
+info:
+  material: NETHER_STAR
+  name: <yellow><bold>Permission Info
+  lore:
+  - <gray>Toggle permissions for this allied claim.
+# Previous Page Button
+previousPage:
+  material: LIGHT_BLUE_CANDLE
+  name: <aqua>Previous Page
+  lore:
+  - <gray>Go to the previous page.
+# Next Page Button
+nextPage:
+  material: LIME_CANDLE
+  name: <green>Next Page
+  lore:
+  - <gray>Go to the next page.
+# Return to previous menu
+back:
+  material: SPECTRAL_ARROW
+  name: <yellow>Back
+  lore:
+  - <gray>Return to Ally Control Panel
+# Text added to lore when a flag is enabled for this ally
+enabledStatus: <green>Enabled
+# Text added to lore when a flag is disabled for this ally
+disabledStatus: <red>Disabled
+# List of configurable ally flags.
+flags:
+  use:
+    material: OAK_DOOR
+    name: <gold>Use Blocks
+    lore:
+    - <gray>Allow ally to use doors, buttons, etc.
+  interact:
+    material: ARMOR_STAND
+    name: <gold>Interact
+    lore:
+    - <gray>Allow ally to interact with entities.
+  chest-access:
+    material: CHEST
+    name: <gold>Chest Access
+    lore:
+    - <gray>Allow ally to open chests.
+  ride:
+    material: SADDLE
+    name: <gold>Ride Vehicles
+    lore:
+    - <gray>Allow ally to ride horses/boats.
+  vehicle-place:
+    material: OAK_BOAT
+    name: <gold>Place Vehicles
+    lore:
+    - <gray>Allow ally to place boats/minecarts.
+  vehicle-destroy:
+    material: GOLDEN_SWORD
+    name: <gold>Destroy Vehicles
+    lore:
+    - <gray>Allow ally to break boats/minecarts.
+  drop-items:
+    material: ROTTEN_FLESH
+    name: <gold>Drop Items
+    lore:
+    - <gray>Allow ally to drop items.
+  pickup-items:
+    material: DIAMOND
+    name: <gold>Pickup Items
+    lore:
+    - <gray>Allow ally to pick up items.

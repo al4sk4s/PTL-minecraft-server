@@ -1,0 +1,38 @@
+# TitleSettings GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Title Settings
+# Main background spacing
+frame:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Bottom alignment spacer
+navSpacer:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Enable / disable claim titles globally
+titleToggle:
+  material: BAMBOO_SIGN
+  name: <yellow><bold>Title Toggle
+  lore:
+  - <gray>Toggle on and off
+# Configure entry title behavior
+onEntry:
+  material: BELL
+  name: <gold><bold>On Entry
+  lore:
+  - <gray>Shows Title on Entering the claim
+# Configure leave title behavior
+onLeaveTitle:
+  material: FIELD_MASONED_BANNER_PATTERN
+  name: <light_purple><bold>On Leave Title
+  lore:
+  - <gray>Shows Title on leaving the claim
+# Return to previous menu
+back:
+  material: SPECTRAL_ARROW
+  name: <red>Back
+  lore:
+  - <gray>Return to Claim Settings

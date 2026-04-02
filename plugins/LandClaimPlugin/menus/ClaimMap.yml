@@ -1,0 +1,65 @@
+# ClaimMap GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Claim Map
+# Wilderness Legend Tile
+wilderness:
+  material: WHITE_STAINED_GLASS_PANE
+  name: <gray>Wilderness
+  lore:
+  - <gray>Click to claim this chunk
+# Your Claim Tile
+yourClaim:
+  material: LIME_STAINED_GLASS_PANE
+  name: <green>Your Claim
+  lore:
+  - <gray>Click to unclaim this chunk
+# Other Player's Claim Tile
+otherClaim:
+  material: RED_STAINED_GLASS_PANE
+  name: <red>Other Claim
+  lore:
+  - <gray>Owned by <owner>
+# Ally's Claim Tile
+allyClaim:
+  material: YELLOW_STAINED_GLASS_PANE
+  name: <gold>Ally Claim
+  lore:
+  - <gray>Owned by <owner>
+# Member/Trusted Claim Tile
+memberClaim:
+  material: CYAN_STAINED_GLASS_PANE
+  name: <aqua>Member Claim
+  lore:
+  - <gray>Owned by <owner>
+# Map Display Background (Fallback)
+mapFill:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Bottom Control Bar Background
+bottomFill:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Current Position Marker
+currentPos:
+  material: MAGENTA_STAINED_GLASS_PANE
+  name: <light_purple>You are here
+  lore: []
+# Refresh Map View Button
+refresh:
+  material: FLOW_POTTERY_SHERD
+  name: Refresh
+  lore: []
+# Back to Main Menu Button
+back:
+  material: SPECTRAL_ARROW
+  name: Back
+  lore: []
+# Map Information Button
+info:
+  material: WRITABLE_BOOK
+  name: Info
+  lore:
+  - See what the color means what

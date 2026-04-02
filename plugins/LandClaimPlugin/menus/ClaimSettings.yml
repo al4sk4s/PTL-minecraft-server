@@ -1,0 +1,69 @@
+# Claim Settings GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting
+title: 'Claim Settings: {claim_name}'
+# Filler 1 (Primary filler)
+filler1:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Filler 2 (Secondary filler)
+filler2:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Overview Button
+overview:
+  material: NETHER_STAR
+  name: <yellow>Claim Settings Overview
+  lore:
+  - <gray>View general claim settings.
+# Rename Button
+rename:
+  material: NAME_TAG
+  name: <aqua>Change Claim Name
+  lore:
+  - <gray>Click to rename this claim.
+# Color Button
+color:
+  material: BRUSH
+  name: <light_purple>Change Claim Color
+  lore:
+  - <gray>Change the display color for map integrations.
+# Roles Button
+roles:
+  material: WRITABLE_BOOK
+  name: <gold>Manage Roles
+  lore:
+  - <gray>Manage custom roles and permissions within this claim.
+# Warps Button
+warps:
+  material: ENDER_EYE
+  name: <green>Warp Settings
+  lore:
+  - <gray>Manage warps for this claim.
+# Visibility Button
+visibility:
+  material: ECHO_SHARD
+  name: <blue>Claim Visibility
+  lore:
+  - <gray>Toggle claim visibility on web maps.
+# Title Toggle Button
+titleToggle:
+  material: GOAT_HORN
+  name: <yellow>Title Change on Enter/Leave
+  lore:
+  - <gray>Toggle showing a title when players enter/leave.
+# Abandon All Button
+abandonAll:
+  material: FLOWER_BANNER_PATTERN
+  name: <red>Abandon All Claims
+  lore:
+  - <gray>Abandon all your claims.
+  - '<dark_red><bold>WARNING: Irreversible!'
+# Back Button
+back:
+  material: SPECTRAL_ARROW
+  name: <red>Back to MainMenu
+  lore:
+  - <gray>Return to the previous menu.

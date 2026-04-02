@@ -23,3 +23,4 @@ whitelist.json
 /plugins/SetHome
 /plugins/ChunkLoader
 /plugins/SimpleLogin
+/plugins/LandClaimPlugin/PlayerData

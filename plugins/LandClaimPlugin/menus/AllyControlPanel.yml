@@ -1,0 +1,38 @@
+# AllyControlPanel GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Ally Control Panel
+# Locked UI background
+frame:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Visual separation
+spacer:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Ally Permissions Button
+allyPermissions:
+  material: WRITABLE_BOOK
+  name: <gold>Ally Permissions
+  lore:
+  - <gray>Manage permissions for this allied claim.
+# Ally Warps Button (Coming Soon)
+allyWarps:
+  material: RECOVERY_COMPASS
+  name: <aqua>Ally Warps <gray>(Coming Soon)
+  lore:
+  - <gray>View and use warps from this ally.
+# Remove from Ally Button
+removeAlly:
+  material: CREEPER_BANNER_PATTERN
+  name: <red><bold>Remove from Ally
+  lore:
+  - <gray>Sever the alliance with this claim.
+# Return to previous menu
+back:
+  material: SPECTRAL_ARROW
+  name: <yellow>Back
+  lore:
+  - <gray>Return to Ally Management

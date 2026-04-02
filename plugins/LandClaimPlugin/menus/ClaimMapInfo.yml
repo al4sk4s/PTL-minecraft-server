@@ -1,0 +1,56 @@
+# ClaimMapInfo GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Claim Map Info
+# Filler Item
+filler:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Filler Item 1
+filler1:
+  material: BLUE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Your Owned Claim Legend
+owned:
+  material: LIME_STAINED_GLASS_PANE
+  name: <green>Your Claim
+  lore:
+  - <gray>Chunks you own
+# Ally's Claim Legend
+ally:
+  material: YELLOW_STAINED_GLASS_PANE
+  name: <gold>Ally Claim
+  lore:
+  - <gray>Chunks owned by allies
+# Other's Claim Legend
+other:
+  material: RED_STAINED_GLASS_PANE
+  name: <red>Other Claim
+  lore:
+  - <gray>Chunks owned by others
+# Member/Trusted's Claim Legend
+member:
+  material: CYAN_STAINED_GLASS_PANE
+  name: <aqua>Member Claim
+  lore:
+  - <gray>Chunks where you are a member/trusted
+# Enemy territory
+enemy:
+  material: RED_STAINED_GLASS_PANE
+  name: <red><bold>Enemy Claim
+  lore:
+  - <gray>Territory owned by your enemies.
+# Wilderness Legend
+wilderness:
+  material: WHITE_STAINED_GLASS_PANE
+  name: <gray>Wilderness
+  lore:
+  - <gray>Unclaimed land
+# Back to Map Button
+back:
+  material: SPECTRAL_ARROW
+  name: <yellow>Back
+  lore:
+  - <gray>Return to the Claim Map

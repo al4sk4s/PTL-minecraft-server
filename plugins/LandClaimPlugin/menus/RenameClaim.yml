@@ -1,0 +1,38 @@
+# RenameClaim GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Rename Claim
+# Visual border separation
+outerFrame:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Neutral inactive space filler
+background:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Bottom alignment spacer
+navSpacer:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Opens chat/anvil input for claim name
+changeName:
+  material: LECTERN
+  name: <yellow><bold>Change Name
+  lore:
+  - <gray>Click to enter a new name for the claim.
+# Restores default claim name
+resetToDefault:
+  material: FLOW_BANNER_PATTERN
+  name: <red><bold>Reset to Default
+  lore:
+  - <gray>Remove the custom name and
+  - <gray>restore the default name.
+# Return to Claim Settings
+back:
+  material: SPECTRAL_ARROW
+  name: <yellow>Back
+  lore:
+  - <gray>Return to Claim Settings

@@ -1,0 +1,40 @@
+# Role Edit Permissions GUI Configuration
+title: Role Permissions - <role>
+# Frame item on the top and sides
+frame:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Info item at the top middle
+info:
+  material: PAPER
+  name: <yellow>Role Permissions
+  lore:
+  - <gray>Toggle permissions for this role.
+  - <gray>Click an item to change its setting.
+# Nav frame item at the bottom
+bottomFill:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Return to previous menu
+back:
+  material: SPECTRAL_ARROW
+  name: <yellow>Back
+  lore:
+  - <gray>Return to Role Setup
+# Previous Page Button
+previousPage:
+  material: LIGHT_BLUE_CANDLE
+  name: <aqua>Previous Page
+  lore:
+  - <gray>Go to the previous page.
+# Next Page Button
+nextPage:
+  material: LIME_CANDLE
+  name: <green>Next Page
+  lore:
+  - <gray>Go to the next page.
+# Lore for Enabled/Disabled states
+enabledStatus: '<green>Currently: <bold>Enabled'
+disabledStatus: '<red>Currently: <bold>Disabled'

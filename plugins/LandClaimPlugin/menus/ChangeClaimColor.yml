@@ -1,0 +1,108 @@
+# ChangeClaimColor GUI Configuration
+# Materials must be valid Bukkit Material enum names.
+# Names and lore support MiniMessage formatting (e.g., <red>Test</red>, <gradient:blue:aqua>Gradient</gradient>)
+title: Change Color
+# Background framing
+frameFill:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Bottom navigation separators
+navFrame:
+  material: WHITE_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+# Opens HEX color input
+customColor:
+  material: BRUSH
+  name: <light_purple><bold>Custom Color
+  lore:
+  - <gray>Set a custom claim color
+  - <gray>using hex code.
+# Return to Claim Settings
+back:
+  material: SPECTRAL_ARROW
+  name: <yellow>Back
+  lore:
+  - <gray>Return to Claim Settings
+# Color Selection Options
+colorBlack:
+  material: BLACK_WOOL
+  name: <black><bold>Black
+  lore:
+  - <gray>Set claim color to Black.
+colorBlue:
+  material: BLUE_WOOL
+  name: <blue><bold>Blue
+  lore:
+  - <gray>Set claim color to Blue.
+colorBrown:
+  material: BROWN_WOOL
+  name: <color:#8B4513><bold>Brown
+  lore:
+  - <gray>Set claim color to Brown.
+colorCyan:
+  material: CYAN_WOOL
+  name: <dark_aqua><bold>Cyan
+  lore:
+  - <gray>Set claim color to Cyan.
+colorGray:
+  material: GRAY_WOOL
+  name: <dark_gray><bold>Gray
+  lore:
+  - <gray>Set claim color to Gray.
+colorGreen:
+  material: GREEN_WOOL
+  name: <dark_green><bold>Green
+  lore:
+  - <gray>Set claim color to Green.
+colorLightBlue:
+  material: LIGHT_BLUE_WOOL
+  name: <aqua><bold>Light Blue
+  lore:
+  - <gray>Set claim color to Light Blue.
+colorLime:
+  material: LIME_WOOL
+  name: <green><bold>Lime
+  lore:
+  - <gray>Set claim color to Lime.
+colorLightGray:
+  material: LIGHT_GRAY_WOOL
+  name: <gray><bold>Light Gray
+  lore:
+  - <gray>Set claim color to Light Gray.
+colorMagenta:
+  material: MAGENTA_WOOL
+  name: <color:#FF00FF><bold>Magenta
+  lore:
+  - <gray>Set claim color to Magenta.
+colorOrange:
+  material: ORANGE_WOOL
+  name: <gold><bold>Orange
+  lore:
+  - <gray>Set claim color to Orange.
+colorPink:
+  material: PINK_WOOL
+  name: <light_purple><bold>Pink
+  lore:
+  - <gray>Set claim color to Pink.
+colorPurple:
+  material: PURPLE_WOOL
+  name: <dark_purple><bold>Purple
+  lore:
+  - <gray>Set claim color to Purple.
+colorRed:
+  material: RED_WOOL
+  name: <red><bold>Red
+  lore:
+  - <gray>Set claim color to Red.
+colorWhite:
+  material: WHITE_WOOL
+  name: <white><bold>White
+  lore:
+  - <gray>Set claim color to White.
+colorYellow:
+  material: YELLOW_WOOL
+  name: <yellow><bold>Yellow
+  lore:
+  - <gray>Set claim color to Yellow.
