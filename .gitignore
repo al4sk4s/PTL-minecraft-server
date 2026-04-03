@@ -19,6 +19,7 @@ start.sh
 usercache.json
 version_history.json
 whitelist.json
+run.bat
 
 /plugins/SetHome
 /plugins/ChunkLoader
